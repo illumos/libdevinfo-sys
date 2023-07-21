@@ -1,0 +1,18 @@
+[package]
+name = "libdevinfo-sys"
+version = "1.0.0"
+edition = "2021"
+license = "MPL-2.0"
+description = "native bindings to libdevinfo (device information library)"
+keywords = ["libdevinfo", "illumos", "devinfo"]
+repository = "https://github.com/illumos/libdevinfo-sys"
+
+[features]
+default = []
+#
+# To enable the use of Private (unstable) interfaces, use the "private"
+# feature:
+#
+private = []
+
+[dependencies]
